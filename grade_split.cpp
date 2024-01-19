@@ -122,6 +122,7 @@ TEST(Split, Empty)
 	Node* list = nullptr;
 	Node* odds = nullptr;
 	Node* evens = nullptr;
+	
 
 	split(list, odds, evens);
 
@@ -134,6 +135,7 @@ TEST(Split, InputSetToNull)
 	Node* list = makeList({1});
 	Node* odds = nullptr;
 	Node* evens = nullptr;
+
 
 	split(list, odds, evens);
 
