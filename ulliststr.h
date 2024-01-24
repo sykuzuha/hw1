@@ -112,6 +112,10 @@ class ULListStr {
    * Deletes all items in the list
    */
   void clear();
+  
+  Item* head_;
+  Item* tail_;
+  size_t size_;
 
  private:
   /** 
@@ -127,9 +131,7 @@ class ULListStr {
    *  You MUST keep these members though you
    *  may add more if desired.
    */
-  Item* head_;
-  Item* tail_;
-  size_t size_;
+  //size_t size_;
 };
 
 #endif
